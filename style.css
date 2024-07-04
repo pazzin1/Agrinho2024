@@ -23,22 +23,15 @@ header{
     
 }
     
-   
-   
 
-    .cabeçalho-lista{
-        align-items: center;
-        text-align: center;
-             
-
-    }
     .cabeçalho-titulo{
-        text-align: center;
-        
+        display: inline-block;
+        margin: 0 16px;
+        font-size: 24px 0;
     }
     
     
-    .principal-container{
+    .principalcontainer{
         height: 100vh;
         display: grid;
         grid-template-columns: 50% 50%;
@@ -67,11 +60,15 @@ margin-bottom: 1em;
 margin: 0 6 em;
 }
 
-.container-secundario{
+.containersecundario{
     align-items: center;
     margin: 0 10em ;
 }
 
-.secundario-imagem{
+.secundarioimagem{
 width: 60%;
+}
+.drones{
+    width: 30%;
+
 }
