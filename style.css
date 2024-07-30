@@ -29,6 +29,10 @@ header{
         margin: 0 16px;
         font-size: 24px 0;
     }
+    .cabeçalho-imagem{
+        padding: 24px 0;
+        margin: 0 16px;
+    }
     
     
     .principalcontainer{
@@ -61,14 +65,31 @@ margin: 0 6 em;
 }
 
 .containersecundario{
-    align-items: center;
-    margin: 0 10em ;
+    width: 20px;
 }
-
-.secundarioimagem{
-width: 60%;
+.containersecundario1{
+    width: 10px;
 }
 .drones{
-    width: 30%;
+    background-image:linear-gradient(#466b46 ,#628862);
+    color: rgb(10, 12, 12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+.img-um{
+    width: 0 24px;
+    margin:24px 0;
+
+}
+.img-dois{
+    width: 0 24px;
+    margin:24px 0;
+
+}
+.img-tres{
+    width: 0 24px;
+    margin:24px 0;
 
 }
